@@ -1,0 +1,13 @@
+# Project-specific overrides
+
+*.map linguist-generated
+dist/* linguist-vendored
+*.bat text eol=crlf
+
+*.tsx linguist-detectable
+* text=auto
+build/* linguist-vendored
+public/*.html linguist-vendored
+*.gif binary
+*.min.css linguist-generated
+src/** linguist-detectable
